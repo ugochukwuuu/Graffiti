@@ -1,0 +1,79 @@
+@import '@/assets/styling/base.css';
+
+
+header{
+    background-image: url('/src/assets/img/Ellipse.png');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: 1284px;
+    background-size: contain;
+}
+.portfolio nav{
+    margin-top: 39px;
+    background-color: var(--darkGrayBg);
+    width: clamp(1rem,70%, 750px);
+    padding: 0px 14px 0px 14px;
+    border-radius: 55px;
+}
+.nav-links{
+    gap: 20px;
+}
+.nav-links li{
+    color: var(--white);
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.portfolio .nav-button button{
+    width: 103px;
+    height: 43px;
+    border-radius: 55px;
+    background-color: var(--priBlue);
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
+.trusted-companies{
+    margin-top:37px;
+    margin-bottom: 30px;
+    
+}
+.trusted-companies h3{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 18.15px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--white)
+}
+
+
+.card{
+    padding: 28px 26px;
+    gap: 22px;
+}
+.card button{
+    border-radius: 12.5px;
+    background-color: #005CE7;
+    color: var(--white);
+    border:none;
+    padding: 10px 7px;
+}
+.card .title{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
