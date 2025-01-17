@@ -4,7 +4,8 @@
 </script>
 
 <template>
-    <div class="container d-flex">
+    <div class="container d-flex justify-content-between">
+        <Card/>
         <Card/>
         <Card/>
     </div>
