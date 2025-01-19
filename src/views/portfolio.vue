@@ -4,6 +4,6 @@
 
 <template>
     <main class="portfolio">
-        <cardContainer/>
+        <cardContainer :showGrayCard = "true" pageType = "portfolio" limit="4"/>
     </main>
 </template>

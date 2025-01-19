@@ -6,7 +6,7 @@ const portfolioView = () => import ('@/views/portfolio.vue');
 const caseStudiesView = () => import ('@/views/caseStudies.vue');
 const contactView = () => import ('@/views/contact.vue')
 // const homeView = () => import('@/views/home.vue')
-const two = 2;
+
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes:[
