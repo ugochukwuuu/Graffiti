@@ -1,5 +1,5 @@
 import {createRouter, createWebHistory} from 'vue-router'
-const Skeleton = () => import('@/views/skeleton.vue');
+const Graffiti = () => import('@/views/Graffiti.vue');
 const notFoundView = () => import('@/views/notFound.vue');
 const graphicsView = () => import ('@/views/graphics.vue');
 const portfolioView = () => import ('@/views/portfolio.vue');
@@ -13,7 +13,7 @@ const router = createRouter({
         {
             path: `/`,
             name: 'graffiti',
-            component:  Skeleton,
+            component:  Graffiti,
             redirect: '/portfolio',
             children:[
                 {
